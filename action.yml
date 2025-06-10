@@ -21,11 +21,10 @@ inputs:
   extensions:
     description: Extensions to filter
     required: false
-    default: js
   annotations:
     description: Enable or disable annotations
     required: false
-    default: true
+    default: 'true'
   working-directory:
     description: Path to project containing npm/yarn installation
     required: false
@@ -38,8 +37,8 @@ inputs:
   all-files:
     description: Run eslint on all files.
     required: false
-    default: false
+    default: 'false'
   use-npx:
     description: Enable or disable using npx instead of node node_modules/.bin/eslint
     required: false
-    default: false
+    default: 'false'
